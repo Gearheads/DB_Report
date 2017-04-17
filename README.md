@@ -7,5 +7,5 @@ A simple Node.js application that will execute a SQL query on an Oracle database
 
 ### Steps
 1. Replace the necessary placeholders, e.g. '\<sql_statement\>', with the proper values.
-2. Create service file inorder to run application in background.
+2. Create service file in order to run application in background.
    - For example, on SLES 12 you can create a service file in `/etc/systemd/system/<service_name>.service`.
