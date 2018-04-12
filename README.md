@@ -4,6 +4,9 @@ A simple Node.js application that will execute a SQL query on an Oracle database
 ### Pre-requistes
 1. Install node. (https://nodejs.org/)
 2. Set up node-oracledb. (https://www.npmjs.com/package/oracledb)
+3. Need to create a **`dbconfig.conf`** file, that holds the connection string to the Oracle database.
+   - This file will allow you to connect to the proper database.
+   - There is an example file in this repository.
 
 ### Steps
 1. Replace the necessary placeholders, e.g. '\<sql_statement\>', with the proper values.
